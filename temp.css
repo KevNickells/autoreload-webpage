@@ -1,0 +1,33 @@
+
+.dashboard-grid {
+  background: red;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid blue;
+}
+
+  /* filter: drop-shadow(2px 2px 2px #808080); */
+.grid-item {
+  border: 2px yellow solid;
+  background: blue;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.grid-row {
+  grid-column: 1 / span 4;
+  background: purple;
+  display: grid;
+  gap: 0.5%;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid blue;
+  padding: 0.5%;
+}
+
+.row-item {
+  border: 2px pink solid;
+  background: orange;
+  padding: 2%;
+  border-radius: 10px;
+}
+
